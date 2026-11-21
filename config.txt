@@ -1,0 +1,45 @@
+# configuracion del juego plants vs zombies
+# formato de cada linea:  nombre_del_dato numero
+# las lineas que empiezan con # son notas y no se leen
+# los tiempos estan en segundos y las velocidades en pixeles por frame
+
+#  oleadas 
+oleadas_totales 5
+max_zombies_oleada 20
+zombies_base 3
+zombies_extra_por_oleada 2
+segundos_preparacion 15
+segundos_descanso 12
+
+# podadoras 
+# hay_podadoras: 1 = cada fila tiene una podadora, 0 = no hay ninguna
+hay_podadoras 1
+velocidad_podadora 4
+
+# plantas 
+vida_girasol 100
+vida_lanzaguisantes 100
+vida_nuez 500
+costo_girasol 75
+costo_lanzaguisantes 50
+costo_nuez 100
+segundos_entre_disparos 1.5
+segundos_entre_soles_girasol 12
+daño_proyectil 20
+
+#  lapidas (obstaculos) 
+# cada lapida parte con esta vida. mientras exista, no se puede plantar en esa celda
+vida_lapida 300
+
+# soles 
+soles_iniciales 150
+valor_de_cada_sol 25
+segundos_entre_soles_cielo 10
+segundos_vida_sol 8
+
+# zombies
+vida_zombie_normal 200
+vida_zombie_flag 200
+velocidad_zombie_normal 0.3
+velocidad_zombie_flag 0.5
+daño_zombie_por_segundo 60
